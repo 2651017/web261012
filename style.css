@@ -1,16 +1,12 @@
-body {
-    background: pink;
-}
-
+ body { background: pink; }
 .card {
     width: 260px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,
-            0, 0, 0.3);
+    box-shadow: 0 4px 12px rgba(0,0, 0, 0.3);
     background: #fff;
     position: relative;
-    transition: transform 0.3s, box -shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 
@@ -25,7 +21,7 @@ body {
     object-fit: cover;
 }
 
-.ba dge {
+.badge {
     position: absolute;
     top: 12px;
     right: 12px;
